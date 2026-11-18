@@ -10,7 +10,23 @@ boutique (Stripe en mode test), espace admin.
 - Vues rendues côté serveur
 
 ## Lancer le projet en local
-_À compléter au fil des milestones._
+Prérequis : Node.js 24.
+
+```bash
+npm install      # installe les dépendances
+npm run dev      # démarre le serveur avec rechargement automatique (nodemon)
+```
+
+Le serveur écoute sur http://localhost:3000 (modifiable avec la variable `PORT`).
+Pour vérifier qu'il répond :
+
+```bash
+curl localhost:3000/health   # → {"status":"ok"}
+```
+
+En production : `npm start` (sans rechargement automatique).
+
+_Base de données et autres étapes : à compléter au fil des milestones._
 
 ## Organisation
 Le travail est découpé en milestones (M0 à M7) et en issues GitHub.

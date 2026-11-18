@@ -1,0 +1,8 @@
+# Dépendances npm (réinstallables avec `npm install`)
+node_modules/
+
+# Secrets et configuration locale
+.env
+
+# Journaux npm
+npm-debug.log*
