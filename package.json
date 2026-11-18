@@ -1,0 +1,32 @@
+{
+  "name": "hors-champ",
+  "version": "1.0.0",
+  "description": "Vidéoclub indépendant de démo, ambiance cinéma de minuit. Projet portfolio : comptes membres, location fictive avec retours et amendes, boutique (Stripe en mode test), espace admin.",
+  "main": "src/server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obistafff/hors-champ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/obistafff/hors-champ/issues"
+  },
+  "homepage": "https://github.com/obistafff/hors-champ#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
